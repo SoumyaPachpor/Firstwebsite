@@ -1,0 +1,368 @@
+body {
+    padding-top: 60px;
+    background-color: #1b1b32;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0a0a23;
+    color: white;
+    height: 60px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.search-button {
+    padding: 8px;
+    background-color: #feac32;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-button i {
+    color: #333;
+}
+
+.brand {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    align-items: stretch;
+}
+
+.buttons a,
+button {
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.buttons a {
+    max-height: 20px;
+    padding-left: 0 0;
+    vertical-align: middle;
+    border: 1px solid white;
+}
+
+.buttons a:hover{
+    background-color: gold;
+    color: black;
+}
+
+button {
+    padding: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.main-content {
+    position: relative;
+    max-width: 800px;
+    margin: 75px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.main-content h1 {
+    font-size: 45px;
+    margin: 30px 0;
+    color: white;
+}
+
+.main-content p {
+    font-size: 23px;
+    margin: 30px 0;
+    color: white;
+    font-weight: bold;
+}
+
+.main-content img {
+    width: 100%;
+}
+
+.main-content button {
+    margin-left: 16%;
+    margin-top: 5%;
+    font-size: 30px;
+    color: black;
+    width: 67%;
+    height: 50px;
+    border-radius: 0;
+    background-color: gold;
+}
+
+.main-content button:hover {
+    filter: brightness(1.25);
+}
+
+.main-content .people {
+    margin-top: 9%;
+    max-width: 100%;
+}
+
+.main-content h4 {
+    color: white;
+    text-align: center;
+    /* Center the text within the h4 element */
+    margin-bottom: 5px;
+}
+
+.seen {
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 70px;
+}
+
+.alu {
+    text-align: center;
+    font-size: 43px;
+    margin: 30px 0;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.alumni1 {
+    justify-content: space-between;
+}
+
+.alumni {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: #0a0a23;
+    margin-bottom: 60px;
+}
+
+.alumni img {
+    max-width: 100%;
+}
+
+.alumni .info {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.alumni h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.alumni p {
+    margin-top: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.gold {
+    margin-left: 33%;
+    font-size: 30px;
+    color: black;
+    width: 34%;
+    height: 50px;
+    border-radius: 0;
+    background-color: gold;
+    margin-bottom: 100px;
+}
+
+.gold:hover {
+    filter: brightness(1.25);
+}
+
+.course {
+    position: relative;
+    width: 900px;
+    margin-left: 21%;
+    display: block;
+}
+
+.course h1 {
+    font-size: 44px;
+}
+
+.map-icon {
+    fill: white;
+    margin-top: 5px;
+    width: 50px;
+}
+
+.arrow {
+    fill: white;
+    margin-top: 17px;
+    width: 50px;
+}
+
+.course a {
+    text-decoration: none;
+}
+
+.course a button {
+    justify-content: last baseline;
+    color: white;
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 3px solid white;
+    border-radius: 0;
+}
+
+.course a button h2 {
+    margin-left: 20px;
+}
+
+.course a button .map-icon,
+.course a button .arrow {
+    flex-shrink: 0;
+}
+
+.course a button .map-icon {
+    margin-right: 10px;
+}
+
+.course a button .arrow {
+    margin-right: 10px;
+}
+
+.course a button:hover {
+    background-color: #f5f6f7;
+    color: black;
+
+    .map-icon {
+        fill: black;
+    }
+
+    .arrow {
+        fill: black;
+    }
+}
+
+.container {
+    max-width: 900px;
+    position: relative;
+    margin-left: 21%;
+}
+
+.footer {
+    background-color: #3b3b4f;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    margin-bottom: 5px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.footer-left a{
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid #fff; 
+    padding-bottom: 2px;
+}
+
+.link:hover{
+    border-bottom: none;
+}
+
+.footer-right {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+    text-align: left;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.column h3 {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.column a {
+    text-decoration: none;
+    color: white;
+}
+
+.column a:hover {
+    color: #feac32;
+}
+
+.d {
+    margin: 0;
+    background-color: #3b3b4f;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-logos {
+    margin-left: 50%;
+    margin-bottom: 0px;
+}
+
+.footer-logos img {
+    width: 180px; 
+    margin-right: 10px; 
+}
+
+
+.footer-bottom-links a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px; 
+}
+
+.footer-bottom-links a:hover {
+    color: #ff0000; 
+}
